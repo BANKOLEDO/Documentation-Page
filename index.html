@@ -140,6 +140,7 @@
                                 </body>
                             </html>
                         </code>
+                    </div>
                         <ul>
                             <h3>Related Topics:</h3>
                             <li>HTML document structure</li>
@@ -147,7 +148,6 @@
                             <li>Viewing HTML in a web browser</li>
                             <li>Introduction to web development</li>
                         </ul>
-                    </div>
                 </section>
                 <section class="main-section" id="html_tags">
                     <header class="heading">
@@ -195,21 +195,37 @@
                         HTML Forms
                     </header>
                     <p class="p-1">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum optio eum dolore voluptatem veritatis iusto nihil libero pariatur nostrum. Voluptate, sint officia! Accusamus!
+                        HTML forms are used to collect user input and send it to a server for processing. Forms are essential for interactive websites, allowing users to submit data such as login information, search queries, and feedback. An HTML form typically includes elements like text fields, checkboxes, radio buttons, and submit buttons.
                     </p>
                     <p class="p">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perspiciatis distinctio illo ullam corporis? Velit accusantium, itaque nostrum animi laudantium eaque odio praesentium eum dolorem labore, numquam laboriosam assumenda similique sequi? Modi architecto laborum aliquid delectus?
+                        Forms are defined using the
+                        &lt;form&gt; tag, with input elements placed inside it. Each input element is paired with a corresponding label to provide context. Forms can also specify methods for sending data, such as GET or POST, and define the action URL where the data should be sent.
                     </p>
                     <div class="code-container">
+                        <!DOCTYPE html>
                         <html>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa vel magnam voluptatibus inventore veritatis at in autem! Ab vero fugiat aliquid suscipit, aspernatur consequatur doloremque pariatur quasi nisi quas placeat magnam dignissimos distinctio adipisci.
-                            </html>
+                        <head>
+                            <title>HTML Forms</title>
+                        </head>
+                        <body>
+                            <h2>Sample Form</h2>
+                            <form action="/submit-form" method="post">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name"><br>
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="email" name="email"><br>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </body>
+                        </html>
                         </code>
                     </div>
                     <ul>
-                        <li>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam labore amet tenetur. Veniam, aperiam. Alias dolorem voluptatibus, expedita soluta neque animi itaque fugit exercitationem unde pariatur. Voluptatibus repudiandae itaque voluptate
-                        </li>
+                        <h3>Related Topics:</h3>
+                        <li>Form elements and attributes</li> 
+                        <li>Input types in HTML forms</li> 
+                        <li>Form validation</li> 
+                        <li>Submitting form data to a server</li> 
                     </ul>
                 </section>
             </main>
